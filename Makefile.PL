@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Nums2Words converts numbers to Portuguese words (works with numbers ranging from 0 to 999.999.999.999.999).",
+  "ABSTRACT" => "Number 2 word conversion in POR.",
   "AUTHOR" => "Jose Castro <cog\@cpan.org>",
   "BUILD_REQUIRES" => {
     "Test::More" => 0
@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.044",
+  "VERSION" => "0.0577",
   "test" => {
     "TESTS" => "t/*.t"
   }

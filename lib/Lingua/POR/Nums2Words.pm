@@ -1,7 +1,7 @@
 # For Emacs: -*- mode:cperl; mode:folding; coding:utf-8; -*-
 
 package Lingua::POR::Nums2Words;
-# ABSTRACT: Nums2Words converts numbers to Portuguese words (works with numbers ranging from 0 to 999.999.999.999.999).
+# ABSTRACT: Number 2 word conversion in POR.
 
 # {{{ use block
 
@@ -14,8 +14,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables declaration
 
-my($ver)      = ('$Rev: 440 $' =~ m{(\d+)}xms);
-our $VERSION = $ver / 10_000;
+our $VERSION = 0.0577;
 
 # }}}
 
@@ -134,7 +133,7 @@ Lingua::POR::Nums2Words - Converts numbers to Portuguese words
 
 =head1 VERSION
 
-version 0.044
+version 0.0577
 
 =head1 SYNOPSIS
 
@@ -148,6 +147,8 @@ version 0.044
   #                     'nove mil novecentos e noventa e nove')
 
 =head1 DESCRIPTION
+
+Number 2 word conversion in POR.
 
 Nums2Words converts numbers to Portuguese words (works with numbers
 ranging from 0 to 999.999.999.999.999).

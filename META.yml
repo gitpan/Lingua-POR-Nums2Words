@@ -1,5 +1,5 @@
 ---
-abstract: 'Nums2Words converts numbers to Portuguese words (works with numbers ranging from 0 to 999.999.999.999.999).'
+abstract: 'Number 2 word conversion in POR.'
 author:
   - 'Jose Castro <cog@cpan.org>'
 build_requires:
@@ -19,4 +19,4 @@ requires:
   strict: 0
   utf8: 0
   warnings: 0
-version: 0.044
+version: 0.0577
